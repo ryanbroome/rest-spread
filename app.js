@@ -4,6 +4,7 @@ function filterOutOdds() {
 function findMin(...val) {
   return val.reduce((min, num) => (min < num ? min : num));
 }
+// const mergeObjects = (obj1, obj2) => ({...obj1, ...obj2})
 function mergeObjects(obj1, obj2) {
   return { ...obj1, ...obj2 };
 }
